@@ -1,4 +1,4 @@
-#### OpenShift Quickstart has been updated to v0.4
+#### OpenShift Quickstart has been updated to v0.4.2 (test)
 
 # [Ghost](https://github.com/TryGhost/Ghost) [![Build Status](https://magnum.travis-ci.com/TryGhost/Ghost.png?token=hMRLUurj2P3wzBdscyQs&branch=master)](https://magnum.travis-ci.com/TryGhost/Ghost)
 
@@ -24,7 +24,7 @@ Where $appname is the name of your application.  This was due to the pre_start_n
 
 The easiest way is to use the following command, make sure that you run 'gem update rhc' first so that you have the newest version:
 
-	rhc app create ghost nodejs-0.10 mysql-5.1 --env NODE_ENV=production --from-code https://github.com/openshift-quickstart/openshift-ghost-mysql-quickstart.git
+	rhc app create ghost nodejs-0.10 mysql-5.5 --env NODE_ENV=production --from-code https://github.com/sarcastillo/openshift-ghost-mysql-quickstart.git
 
 'ghost' will be the name of your application.  
 
