@@ -1,5 +1,6 @@
 // # Ghost Configuration
 // Setup your Ghost install for various environments
+// Documentation can be found at http://docs.ghost.org/usage/configuration/
 
 var path = require('path'),
     config;
@@ -82,7 +83,8 @@ config = {
         server: {
             host: '127.0.0.1',
             port: '2369'
-        }
+        },
+        logging: false
     },
 
     // ### Travis
@@ -98,7 +100,8 @@ config = {
         server: {
             host: '127.0.0.1',
             port: '2369'
-        }
+        },
+        logging: false
     },
 
     // ### Travis
@@ -118,7 +121,8 @@ config = {
         server: {
             host: '127.0.0.1',
             port: '2369'
-        }
+        },
+        logging: false
     },
 
     // ### Travis
@@ -138,7 +142,8 @@ config = {
         server: {
             host: '127.0.0.1',
             port: '2369'
-        }
+        },
+        logging: false
     }
 };
 
